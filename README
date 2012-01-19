@@ -1,0 +1,52 @@
+#################################################################
+#This README details the eBay-LMS-API and how to use it.
+#################################################################
+by Wesley Hansen
+01/19/2012 11:36:40 AM
+
+The lmslib is a python module that builds eBay Large Merchant Services
+API call requests( xml strings) and has the functionality to send
+them to the correct eBay server endpoint as well as receive and parse
+the response files.
+
+It is already expected that you know what the eBay Large Merchant Services is
+and what they're expecting, but this module does all the hard stuff for you.
+
+In order to begin connecting to eBay's API servers you must have already created
+a developer account on their website (https://www.x.com/developers/ebay) and
+obtained developer credentials( developer key, application key, certificate key)
+as well as generated an auth token.
+
+There are two different environments that eBay uses: the production environment, which
+is their live server; and the sandbox environment, which is used for testing and
+doesn't involve any transfer of money or goods. It is recommended that you test
+everything on the sandbox first before deciding to go live with it.
+
+The two different environments also take different credential information, which
+you'll have to generate yourself, from the account settings of your eBay developer
+account.
+
+In order for lmslib module to begin connecting to eBay servers as your account,
+you must supply your credentials to the module.  This information is stored in 
+two seperate JSON files:
+	credentials.json( Your credentials for the production server)
+	sb_credentials.json( Your credentials for the sandbox server)
+Simply open those files in your favorite text editor and put your credentials in the
+proper spots.
+
+
+An example of how to use the API can be found in the examples/ directory. 
+The file api_test.py goes through every step of the LMS lifecycle that is 
+necessary to upload a BulkDataFile that contains multiple Trading API requests,
+and have eBay process the data, and send back a response detailing what happened
+to each request( whether they Succeeded or Failed)
+
+Please use the Sandbox environment for testing your knowledge and understanding
+of both eBay's Large Merchant Services and the lmslib module.
+
+
+If you have any questions or comments
+
+Feel free to reach me at wes@ridersdiscount.com
+
+
