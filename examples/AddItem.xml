@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkDataExchangeRequests xmlns="urn:ebay:apis:eBLBaseComponents">
+	<Header>
+		<Version>747</Version>
+		<SiteID>100</SiteID>
+	</Header>
+			<AddItemRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+	  		<ErrorLanguage>en_US</ErrorLanguage>
+	  		<WarningLevel>High</WarningLevel>
+	  		<Version>747</Version>
+			<MessageID>Testing New String Format</MessageID>
+		  	<Item>
+				<Title>HJC SY-MAX SYMAX II 2 HELMET ANTHRACITE M/MEDIUM</Title>
+				<Description>This is a cool helmet, it is brand new by the way!</Description>
+				<PrimaryCategory>
+					<CategoryID>6749</CategoryID>
+				</PrimaryCategory>
+				<StartPrice>99.99</StartPrice>
+				<ConditionID>1000</ConditionID>
+				<CategoryMappingAllowed>True</CategoryMappingAllowed>
+				<Country>US</Country>
+				<Currency>USD</Currency>
+				<DispatchTimeMax>3</DispatchTimeMax>
+				<ListingDuration>Days_10</ListingDuration>
+				<ListingType>FixedPriceItem</ListingType>
+				<PaymentMethods>PayPal</PaymentMethods>
+				<PayPalEmailAddress>ebay@ridersdiscount.com</PayPalEmailAddress>
+				<PictureDetails>
+					<PictureURL>http://e.ridersdiscount.com/images/HJC/022708/576-561_sm.jpg</PictureURL>
+				</PictureDetails>
+				<PostalCode>49424</PostalCode>
+				<Quantity>10</Quantity>
+				<ReturnPolicy>
+					<RefundOption>Exchange</RefundOption>
+					<Refund>Exchange</Refund>
+					<ReturnsWithinOption>Days_14</ReturnsWithinOption>
+					<ReturnsWithin>14 Days</ReturnsWithin>
+					<ReturnsAcceptedOption>ReturnsAccepted</ReturnsAcceptedOption>
+					<ReturnsAccepted>Returns Accepted</ReturnsAccepted>
+					<Description>
+					Exchanges are permitted, except on electronic items, and must be initiated within 14 days of receipt. Merchandise must be in new condition with all packaging, manuals, and paperwork intact and unaltered. To exchange, please contact customer service to receive a RMA# and our exchange form. ELECTRONIC ITEMS, due to their special nature cannot be exchanged for any reason and are solely covered directly through their respective manufacturers.
+					</Description>
+					<ShippingCostPaidByOption>Buyer</ShippingCostPaidByOption>
+					<ShippingCostPaidBy>Buyer</ShippingCostPaidBy>
+				</ReturnPolicy>
+				<ShippingDetails>
+		<ShippingServiceOptions>
+			<ShippingService>ShippingMethodStandard</ShippingService>
+				<ShippingServiceCost>0.0</ShippingServiceCost>
+				<ShippingServiceAdditionalCost>0.0</ShippingServiceAdditionalCost>
+				<ShippingServicePriority>1</ShippingServicePriority>
+				<ExpeditedService>false</ExpeditedService>
+			<FreeShipping>true</FreeShipping>
+		</ShippingServiceOptions>
+		<InternationalShippingServiceOption>
+			<ShippingService>StandardInternational</ShippingService>
+			<ShippingServiceCost currencyID="USD">29.98</ShippingServiceCost>
+			<ShippingServicePriority>2</ShippingServicePriority>
+			<ShipToLocation>CA</ShipToLocation>
+		</InternationalShippingServiceOption>
+		<InternationalShippingServiceOption>
+			<ShippingService>StandardInternational</ShippingService>
+			<ShippingServiceCost currencyID="USD">39.98</ShippingServiceCost>
+			<ShippingServicePriority>3</ShippingServicePriority>
+			<ShipToLocation>Americas</ShipToLocation>
+			<ShipToLocation>Europe</ShipToLocation>
+			<ShipToLocation>Asia</ShipToLocation>
+			<ShipToLocation>AU</ShipToLocation>
+		</InternationalShippingServiceOption>
+		<ShippingType>Flat</ShippingType>
+		<ExcludeShipToLocation>LK</ExcludeShipToLocation>
+		<ExcludeShipToLocation>ID</ExcludeShipToLocation>
+		<ExcludeShipToLocation>MY</ExcludeShipToLocation>
+		<ExcludeShipToLocation>GB</ExcludeShipToLocation>
+		<ExcludeShipToLocation>SG</ExcludeShipToLocation>
+		<SellerExcludeShipToLocationsPreference>true</SellerExcludeShipToLocationsPreference>
+	</ShippingDetails>
+				<Site>eBayMotors</Site>
+				<SKU>1000000-2</SKU>
+			</Item>
+		</AddItemRequest>
+		
+</BulkDataExchangeRequests>
+	
+	
+	
+	
+	
